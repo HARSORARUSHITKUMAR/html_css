@@ -1,0 +1,371 @@
+/***************  * (STAR) UNIVERSAL AAKHI WEBSITE MA LAGE  **************/
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+/************** CSS ID AND CLASS ************/
+/**************** CLASS IS USED FOR A GROUP 
+CLASS NE USE KRVA MATE AAPDE . (DOT) NO USE KRVO PDE
+CLASS . (DOT) THI DEFINE THAI *****************/
+
+/*************** YOU CAN USE ID AS A UNIQUE AND SINGLE 
+ID NE USE KRVA MATE AAPDE # (HASH) NO USE KRVO PDE
+ID  # (HASH) THI DEFINE THAI ****************/
+
+h2 {
+  color: red;
+}
+
+#mycss {
+  color: blueviolet;
+}
+
+#dttag {
+  color: chartreuse;
+}
+
+.mycssclass {
+  color: brown;
+  background-color: cadetblue;
+}
+
+/* CSS BACK GROUND PROPERTY */
+
+/*************** VALID COLOR NAME LIKE "RED" 
+HEX VALUE LIKE "#FF0000"
+RGB VALUE LIKE "RGB(255,0,0)"
+****************/
+
+.imgclass {
+  width: 100%;
+  height: 100vh;
+  /* background-color: violet; */
+  /*********** back ground ma image set krva mate ***********/
+  background-image: url("natur.jpg");
+  /*********** back ground image ne repeat krava mate and repeat no krva mate ***********/
+  /* background-repeat: no-repeat; */
+  /* background-repeat: repeat; */
+
+  /*********** horizantal repeat krva mate  ************/
+  /* background-repeat: repeat-x; */
+
+  /*********** vertical repeat krva mate  ************/
+  /* background-repeat: repeat-y; */
+
+  /* perfectaly image ne center ma batva mate */
+  /* background-size: 100% 100%; */
+
+  /* parallax website mate.ek image ni upr biji image lava mate */
+  /* background-attachment: fixed; */
+}
+
+/******************************************* CSS FONTS **********************************/
+
+/* FONT-FAMILY => CHANGE THE FONT FACE  */
+/* FONT-STYLES => MAKE FONT ITALIC OR OBLIQUE */
+/* FONT-VARIANT => CREATE A SMALL - CAP EFFECT */
+/* FONT-SIZE => SETS THE SIZE OF FONT OR TEXT */
+/* FONT-WEIGHT => SPECIFIES WEIGHT OF FONT */
+
+#fontcss {
+  /* font ni style mate font-family */
+  font-family: "Ubuntu Sans", sans-serif;
+
+  /* font ni size reduce krva mate or small latters ne capital ma convert kri dese */
+  font-variant: small-caps;
+
+  /* font-size font ni size ne vadharva mate and ghatadva mate  */
+  font-size: 2em;
+  /* 1em = 16px */
+
+  /* font-style => font ne italic krava mate */
+  font-style: italic;
+
+  /* font-weight => font ne increase or decrease bold and light krva mate */
+  font-weight: bold;
+  /* font-weight: 500; */
+}
+
+/*********************** TEXT CSS *****************************/
+/* COLOR => PROPRTY IS USED TO SET THE COLOR OF TEXT */
+/* DIRECTION => TEXT NI DIRECTION CHANGE KRVA MATE LEFT-TO-RIGHT OR RIGHT-TO-LEFT */
+/* LETTER-SPACING => SPACE NE ADD KRVA AND SPACE NE REMOVE KRVA MATE LETTER MA  */
+/* WORD SPACING => SPACE NE ADD KRVA AND SPACE NE REMOVE KRVA MATE SENTENCE MA */
+/* TEXT-INDENT =>  KOI PN PARAGRAPH OR SENTENCE OR WORD LAKHVI TYARE TENI AAGAL SPACE DEVA MATE*/
+/* TEXT-ALIGN => TEXT NE ALIGN KRVA MATE LIKE CENTER,RIGHT,LEFT */
+/* TEXT-TRANSFORM => TEXT NE UPPERCASE OR LOWER CASE MA KRVA MATE */
+
+#textcss {
+  /* COLOR => PROPRTY IS USED TO SET THE COLOR OF TEXT */
+  color: red;
+
+  /* LETTER-SPACING => SPACE NE ADD KRVA AND SPACE NE REMOVE KRVA MATE LETTER MA  */
+  letter-spacing: 2px;
+
+  /* WORD SPACING => SPACE NE ADD KRVA AND SPACE NE REMOVE KRVA MATE SENTENCE MA */
+  word-spacing: 5px;
+
+  /* DIRECTION => TEXT NI DIRECTION CHANGE KRVA MATE LEFT-TO-RIGHT OR RIGHT-TO-LEFT */
+  direction: ltr;
+
+  /* TEXT-INDENT =>  KOI PN PARAGRAPH OR SENTENCE OR WORD LAKHVI TYARE TENI AAGAL SPACE DEVA MATE*/
+  text-indent: 50px;
+
+  /* TEXT-ALIGN => TEXT NE ALIGN KRVA MATE LIKE CENTER,RIGHT,LEFT */
+  text-align: center;
+
+  /* TEXT-TRANSFORM => TEXT NE UPPERCASE OR LOWER CASE MA KRVA MATE */
+  text-transform: uppercase;
+}
+
+/********************************** LINK CSS ****************************/
+/* :LINK => UNVISITED HYPER LINK */
+/* :VISITED => VISITED HYPER LINK */
+/* :HOVER => AAPDE MOUSE NE TYA TE LINK PR RAKHVI AND TENA PR POINT KRVI TENE HOVER LINK KEVAY */
+/* :ACTIVE => AAPDE TE LINK PR CLICK KRVI TENE ACTIVE LINK KEVAY */
+
+/* :LINK => UNVISITED HYPER LINK */
+a:link {
+  /* unvisited link ma color red btavse */
+  color: red;
+}
+
+/* :VISITED => VISITED HYPER LINK */
+a:visited {
+  /* jyare hu te link ne click krine chhodi daish to tene visited link kevama aave and teno color change thai jse
+    and hu te link mathi bija page pr jato rahish   */
+  color: green;
+}
+
+/* :HOVER => AAPDE MOUSE NE TYA TE LINK PR RAKHVI AND TENA PR POINT KRVI TENE HOVER LINK KEVAY */
+a:hover {
+  /* aapde mouse ne tya te link pe lai jsu and te link pr rakhsu to teno color change thai jse.
+    hu khali mouse ne tya te link pr rakhish etle te batvse ke tne aa link pr mouse rakhyu 6e tem */
+  color: yellow;
+}
+
+/* :ACTIVE => AAPDE TE LINK PR CLICK KRVI TENE ACTIVE LINK KEVAY */
+a:active {
+  /* jevi hu te link pr click krish to teno color change thai jse.
+    jyare hu te link pe click krish tyare te link active kevase */
+  color: blue;
+}
+
+/******************************************* BORDERS CSS **********************************/
+/* BORDER PROPERTY AAPDA BOX NE KEVI RITE BATAVU TEMA HELP KRSE */
+/* BORDER-COLOR => BORDER NE COLOR KRVA MATE */
+/* BORDER-STYLE => BORDER NE SOLID KRVA MATE,DASHED LINE KRVA MATE,
+DOUBLE LINE KRVA MATE,AND BIJI GHANI VADHARE POSSIBLE VALUES AAPI SAKO TME */
+/* BORDER-WIDTH => BORDER NI WIDTH DEVA MATE  */
+/* BORDER-RADIUS => BORDER NE CURV KRVA MATE */
+
+.bordercss {
+  width: 500px;
+  height: 300px;
+  background-color: violet;
+
+  /* BORDER-WIDTH => BORDER NI WIDTH DEVA MATE  */
+  border-width: 5px;
+
+  /* BORDER-COLOR => BORDER NE COLOR KRVA MATE */
+  border-color: black;
+
+  /* BORDER-STYLE => BORDER NE SOLID KRVA MATE,DASHED LINE KRVA MATE,
+DOUBLE LINE KRVA MATE,AND BIJI GHANI VADHARE POSSIBLE VALUES AAPI SAKO TME */
+  /* SOLID,DOTTED,DASHED,DOUBLE-LINE ETC... */
+  border-style: solid;
+
+  /* BORDER-RADIUS => BORDER NE CURV KRVA MATE */
+  border-radius: 10px;
+}
+
+/*********************************** LIST CSS **************************************/
+/* LIST-STYLE-TYPE =>  */
+ul {
+  list-style-type: square;
+}
+ol {
+  list-style-type: upper-roman;
+}
+
+/***************************************** BOX MODEL CSS ************************************/
+/* CONTENT => TEXT AND IMAJE NE BATAVA MATE  */
+/* PADDING => CONTENT NI AAJUBAJU NA AREA NE CLEAR KRVA MATE.THE PADDING IS TRANSPARENT */
+/* BORDER => AROUND THE PADDING AND CONTENT */
+/* MARGIN => BORDER NI BAHAR CLEAR KRVA MATE .THE MARGIN IS TRANSPARENT */
+
+.boxmodel {
+  width: 400px;
+  height: 300px;
+  background-color: red;
+
+  /* PADDING => CONTENT NI AAJUBAJU NA AREA NE CLEAR KRVA MATE.THE PADDING IS TRANSPARENT */
+  /* left,right,top,bottom */
+}
+input {
+  /* PADDING => CONTENT NI AAJUBAJU NA AREA NE CLEAR KRVA MATE.THE PADDING IS TRANSPARENT */
+  /* TOP,RIGHT,BOTTOM,LEFT */
+  /* padding: 5px 5px 5px 5px; */
+  /* IN SHORT TERM */
+  padding: 5px;
+
+  /* MARGIN => BORDER NI BAHAR CLEAR KRVA MATE .THE MARGIN IS TRANSPARENT */
+  /* TOP,RIGHT,BOTTOM,LEFT */
+  /* margin-top: 5px;
+    margin-left: 10px; */
+  margin: 10px;
+}
+
+/********************************* SCROLLBARS (OVERFLOW) *************************************/
+/* VISIBLE => VISIBLE SCROLL TE JEVO TME TEXT LAKHYO CHHE TEVO J BATAVSE PELANI JEVO J .
+MEANS KE TME EK PRAGRAPH LAKHYO CHHE TE BOX NI ANDAR CHHE TENE TME OVERFLOW:VISIBLE
+KARSO ETLE TE BOX NI BAHAR JATO RESE TMARO TEXT */
+/* HIDDEN => BORDER NI ANDAR NA VADHARANA TEXT NE HIDDEN KRVA MATE.
+MEANS KE BIJO KOI PN TEXT BATAVO NO HOY TMARE TO OVERFLOW:HIDDEN NO USE THAI. */
+/* SCROLL => SCROLL NO TME USE KRSO TO TE AUTO JEVU J KAM AAPSE PN TE SATHE SATHE SIDE MA AND NICHE SCROLL BAR BANAVI DESE
+MEANS KE TME KOI PN PARAGRAPH LAKHYO CHHE TENE LENGHT MA LAMBO CHHE AND TME BOX NI SIZE NANI AAPI CHHE
+TO TE SIDE MA PN SCROLLBAR AAPSE AND NICHE PN SCROLLBAR AAPSE ETLE TME AASANI THI TENE SIDE MA SCROLL KRINE READ KRI SKO. */
+/* AUTO => AUTO TE BOX NI ANDAR EK SCROLL BANAVI DESE JETHI TME TE AAKHO TEXT READ KRI SAKSO CUT THAYA VAGR.
+MEANS KE TE AAKHA TEXT NE CUT NYH KRE AND TE BOX MA EK SCROLL BANAVI NE TME READ KRI SKO TEVA FORMATE MA RAKHSE JETHI 
+KRINE TME TE OARAGRAPH SCROLL KRINE READ KRI SKO */
+
+.scrollbarcss {
+  width: 200px;
+  height: 100px;
+  border: 5px double blue;
+
+  /* HIDDEN => BORDER NI ANDAR NA VADHARANA TEXT NE HIDDEN KRVA MATE.
+    MEANS KE BIJO KOI PN TEXT BATAVO NO HOY TMARE TO OVERFLOW:HIDDEN NO USE THAI. */
+    overflow: hidden;
+
+    /* AUTO => AUTO TE BOX NI ANDAR EK SCROLL BANAVI DESE JETHI TME TE AAKHO TEXT READ KRI SAKSO CUT THAYA VAGR.
+    MEANS KE TE AAKHA TEXT NE CUT NYH KRE AND TE BOX MA EK SCROLL BANAVI NE TME READ KRI SKO TEVA FORMATE MA RAKHSE JETHI 
+    KRINE TME TE OARAGRAPH SCROLL KRINE READ KRI SKO */
+    overflow: auto;
+
+    /* SCROLL => SCROLL NO TME USE KRSO TO TE AUTO JEVU J KAM AAPSE PN TE SATHE SATHE SIDE MA AND NICHE SCROLL BAR BANAVI DESE
+    MEANS KE TME KOI PN PARAGRAPH LAKHYO CHHE TENE LENGHT MA LAMBO CHHE AND TME BOX NI SIZE NANI AAPI CHHE
+    TO TE SIDE MA PN SCROLLBAR AAPSE AND NICHE PN SCROLLBAR AAPSE ETLE TME AASANI THI TENE SIDE MA SCROLL KRINE READ KRI SKO. */
+    overflow: scroll;
+
+    /* VISIBLE => VISIBLE SCROLL TE JEVO TME TEXT LAKHYO CHHE TEVO J BATAVSE PELANI JEVO J .
+    MEANS KE TME EK PRAGRAPH LAKHYO CHHE TE BOX NI ANDAR CHHE TENE TME OVERFLOW:VISIBLE
+    KARSO ETLE TE BOX NI BAHAR JATO RESE TMARO TEXT */
+
+    /* overflow: visible; */
+}
+
+/************************************** POSITIONING CSS *********************************/
+    /* RELATIVE-POSITION => ELEMENT IS POSITIONED RELATIVE TO IT'S NORMAL POSITION.
+    RELATIVE POSITION TME GME TENE AAPSO TE JYA HASE TENE J TENI POSITION MANI LESE.
+    AA EK NORMAL POSITION CHHE CSS MA .NORMAL POSITION NE POTANI POSITION MANI LESE. */
+/* ABSOLUTE-POSITION => ELEMENT IS POSITIONED RELATIVE TO THE FIRST PARENT ELEMENT THAT HAS A POSITION OTHER THAN STATIC. 
+ABSOLTE-POSITION SUPPOSE AAPDI PASE EK MAIN DIV CHHE TO POSITION ABSOLUTE MA TE MAIN DIV NE PARENT MANSE AND TENA 
+ACCORDING POSITION MA CHANGING KARSE.MEANS KE EK PARENT DIV NI ANDAR BIJA FOUR(4) DIV CHHE TO TE FOUR(4)DIV PARENT DIV NE ACCES KRSE.  */
+
+.father{
+    width: 600px;
+    height: 300px;
+    background-color: orangered;
+    position: relative;
+}
+.child1{
+    width: 100px;
+    height: 60px;
+    background-color: blue;
+    position: absolute;
+    left: 0;
+}
+.child2{
+    width: 100px;
+    height: 60px;
+    background-color: yellow;
+    position: absolute;
+    right: 0;
+}
+.child3{
+    width: 100px;
+    height: 60px;
+    background-color: green;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.child4{
+    width: 100px;
+    height: 60px;
+    background-color: violet;
+    position: absolute;
+    bottom: 0;
+}
+
+/****************************************** Z-INDEX **************************************/
+/* SPECIFIES STACK ORDER OF ELEMET */
+/* CHANGE THE FACE OF FONT */
+/* JYARE TME ELEMENTS NE POSITION AAPO TYARE J USE THAI CHHE */
+/* NOTE:- Z-INDEX POSITION NA ELEMENTS NI SATHE J USE THAI CHHE (POSITION:ABSOLUTE,RELATIVE,FIXED) */
+
+/******************************* CSS FLOAT ******************************/
+/* EK DIV NI ANDAR EK THI VADHARE DIV HOY AND TMARE TENE RIGHT AND LEFT SIDE KRVA HOY TYARE FLOAT NO USE KRI SAKAY */
+/* WEBSITE NU LAYOUT AND STRUCTER BANAVE  */
+/* LEFT =>  */
+/* RIGHT =>  */
+
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+.logo{
+    width: 30%;
+    line-height: 80PX;
+    text-align: center;
+    background-color: orange;
+    float: left;
+}
+.menu{
+    width: 70%;
+    line-height: 80PX;
+    background-color: red;
+    float: right;
+}
+
+/*********************************** CSS DISPALY **********************************/
+/* DIV AND BIJA OTHER POINTS AND TEXT , STRUCTER NE KEVI BATAVU CHHE TENA MATE USE KARVAMA AAVE CHHE. */
+/* LAYOUT NE CONTROL KRVA MATE */
+/* DISPLAY INLINE AND BLOCK */
+
+.cssdisplay{
+    padding-top: 20px;
+    width: 100%;
+    height: 80px;
+    
+}
+.logodis{
+    width: 30%;
+    line-height: 80PX;
+    text-align: center;
+    background-color: orange;
+    float: left;
+}
+.menudis{
+    width: 70%;
+    line-height: 47px;
+    background-color: red;
+    float: right;
+}
+
+#disul{
+    list-style: none;
+    text-align: right;
+}
+#disli{
+    display: inline-block;
+    /* border: 2px solid black; */
+    padding: 0 10px;
+}
+
+/************************************** CURSOR ********************************/
+/* AAPDE CURSOR NE KEVI RITE BATAVU TENE MATE USE KRVAMA AAVE CHHE */
+/* USER NE CURSOR KEVU BATAVU TENA MATE */
